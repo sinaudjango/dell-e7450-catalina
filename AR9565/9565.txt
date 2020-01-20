@@ -1,0 +1,5 @@
+===---
+1 go to System/Library/Extensions and delete IO80211Family.kext, IO80211FamilyV2.kext, corecapture.kext and CoreCaptureResponder.kext
+2 Copy IO80211Family.kext, corecapture.kext and CoreCaptureResponder.kext
+3 Run Kext Utility to fix permissions and update kext cache
+4 reboot enjoy
