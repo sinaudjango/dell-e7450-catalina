@@ -8,6 +8,7 @@ RAM : 2 x 8 GB (1600 MHz)
 WIFI: Intel Tri-Band Wireless-AC 1726 (replace with Atheros AR9565)
 Graphic: Intel HD Graphics 5500
 
+![laptop](https://prnt.sc/qq3dff)
 Instalation
 
 make bootable installer using vanilla installer, download from apple store
@@ -77,3 +78,10 @@ then convert from hexa to decimal
     
     
  if you cant save directly, first copy Info.plist to Desktop after edited replace to origin source path
+ 
+ Fix keyboard shortcuts
+
+Download and install Karabiner Elements
+Download karabiner.json found in this guide from osxlatitude
+Copy karabiner.json to ~/.config/Karabiner
+You can now use F11 & F12 for brightness
